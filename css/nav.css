@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+.top-level-menu ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.top-level-menu li:hover > ul
+{
+    display: inline-flex;
+
+}
+/* Remove bullet from all list items */
+.top-level-menu li  {
+	list-style: none;
+	margin-bottom: 5px;
+
+}
+/* Apply to all links inside the multi-level menu */
+.top-level-menu a 
+{
+	/*font-weight: bold;*/
+    text-decoration: none;
+	font-size: 22px;
+	/* Make the link cover the entire list item-container */
+	display: block;
+}
+.top-level-menu > li {
+	float: left;
+	height: 30px;
+	width: 160px;
+	background-color: blue;
+}
+/* control padding, margin of top menu */
+.top-level-menu {
+	padding: 0 0 0 0px;
+	margin: 0px;
+}
+/* set height of <a> fill the <li> */
+.top-level-menu a 
+{
+	/*line-height: 20px;*/
+	padding: 0 0 0 0px;
+	text-align: center;
+}
+/* white color for <a> */
+.top-level-menu a 
+{
+    color: #FFFFFF;
+}
+/* get rid of space between menus */
+
+/* set color for second menu */
+
+/* hover settings for all <a> */
+.top-level-menu a:hover 
+{ 
+	color: #000000; 
+	background: #d14836;
+}
+
+.down-level-menu{
+ text-align: left;
+}
+
+
+.down-level-menu a
+{
+	/*list-style: none;*/
+	color: white;
+	/*font-weight: bold;*/
+	/*text-decoration: none;*/
+	font-size: 14px;
+	/* Make the link cover the entire list item-container */
+	display: inline;
+}
+
+.down-level-menu li  {
+	list-style: none;
+}
+
+
+.listartist-level-menu{
+}
+
+
+.listartist-level-menu a
+{
+	color: black;
+	/*font-weight: bold;*/
+	text-decoration:underline;
+	font-size: 18px;
+	/* Make the link cover the entire list item-container */
+	display: inline;
+}
+
+.listartist-level-menu li  {
+	/*list-style: none;*/
+	height: 40px;
+}
